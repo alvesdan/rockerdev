@@ -42,3 +42,4 @@ EOF
 (cd app; docker-compose run web rails new . --force --database=postgresql -m ./template.rb)
 (cd app; docker-compose build)
 (cd app; docker-compose run web rake db:create)
+rm ./app/template.rb
