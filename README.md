@@ -4,8 +4,8 @@ Play with Docker + Rails development
 ##### Dependencies
 * Docker
 * Docker Compose
-* Ruby
-* Rails
+* ~~Ruby~~
+* ~~Rails~~
 
 ```
 bash generator.sh
@@ -29,7 +29,7 @@ docker-compose up
 --------------------------
 
 - [x] Generate application from template
-- [ ] Move Ruby and Rails dependencies to run inside the container
+- [x] Move Ruby and Rails dependencies to run inside the container
 - [ ] Define application name
 - [ ] Customize database type
 - [ ] Customize services (memcache, redis, elasticsearch)
